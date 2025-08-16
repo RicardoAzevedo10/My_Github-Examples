@@ -1,6 +1,7 @@
 on:
   schedule:
     - cron: "*/2 * * * *"
+  workflow_dispatch:   # permite trigger manual
 
 jobs:
   hello_world:
